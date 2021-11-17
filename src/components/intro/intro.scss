@@ -1,0 +1,119 @@
+@import "../../global.scss";
+
+.intro{
+    background-color: white;
+    display: flex;
+
+    @include mobile{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left{
+        flex: 0.5;
+        overflow: hidden;
+
+        .imageContainer{
+            width: 800px;
+            height: 800px;
+            padding-top: 50px;
+            background-color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            float: right;
+            overflow: hidden; 
+
+            @include mobile{
+                align-items: flex-start;
+                
+                
+            }
+
+            img{
+                height: 120%;
+
+                @include mobile{
+                    width: 38%;
+                    height: 38%;
+                    border-radius: 100%;
+                }
+            }
+        }
+
+    }
+    .right{
+        flex:0.5;
+        position: relative;
+
+        .wrapper{
+            width: 100%;
+            height: 100%;
+            padding-left: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            @include mobile{
+                padding-left: 0px;
+                align-items: center;
+            }
+
+            h1{
+                font-size: 60px;
+                margin: 10px,0;
+
+                @include mobile{
+                    font-size: 40px;
+                }
+            }
+            h2{
+                font-size: 35px;
+            }
+            h3{
+                font-size: 20px;
+                color: #b31439;
+                
+
+                span{
+                    font-size: inherit;
+                }
+
+                .ityped-cursor{
+                    animation: blink 2s infinite;
+                }
+
+                @keyframes blink {
+                    50%{
+                        opacity: 1;
+                    }
+                    100%{
+                        opacity: 0;
+                    }
+                }
+            }
+        }
+        a{
+            position: absolute;
+            bottom: 10px;
+            
+            @include mobile{
+                left: 100px;
+            }
+
+            .icon{
+                font-size: 35px;
+                text-decoration: none;
+                color: $mainColor;
+                animation: arrowBlink 2s infinite;
+            }
+
+            @keyframes arrowBlink {
+                100%{
+                    opacity: 0;
+                }
+            }
+        }
+    }
+}

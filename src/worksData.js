@@ -1,0 +1,48 @@
+export const worksData = [
+    {
+        id:"1",
+        icon: "assets/c4icon.png",
+        title: "Connect 4",
+        desc:" A Connect 4 game coded in Java With both PvP and AI functionality.  The game is complete with dynamic leaderboards, instructions and an AI capable of blocking the player from winning!",
+        img: "assets/connect4.png",
+        link: "https://github.com/afrazhemraj/Connect-4",
+        other: "More?",
+    },
+    {
+        id:"2",
+        icon: "assets/sudokuIcon.png",
+        title: "Sudoku",
+        desc:" A Sudoku game coded with Python using the Pygame library. The game contains randomly generated boards that can be either played, verified, or solved using the backtracking algorithm implemented into the solver!",
+        img: "assets/Sudoku.png",
+        link: "https://github.com/afrazhemraj/Sudoku",
+        other: "More?",
+    },
+    {
+        id:"3",
+        icon: "assets/folderIcon.png",
+        title: "React.js Portfolio Website",
+        desc:" This website was coded with React.js, Sass (CSS) and HTML. The website is fully responsive and contains loads of CSS animations.  Please enjoy learning more about who I am!",
+        img: "assets/afrazReact.png",
+    },
+    {
+        id:"4",
+        icon: "assets/printer.png",
+        title: "CAD/ 3D Printed Phone Stand",
+        desc:" This print-in-place, articulated phone stand was designed in SolidWorks using the Engineering Design Process. It folds flat for easy storage and was 3D printed easily as a single part.",
+        img: "assets/PhoneStand.png",
+    },
+    {
+        id:"5",
+        icon: "assets/droneIcon.png",
+        title: "FPV Quadcopter",
+        desc:"This FPV quadcopter was constructed with hand-picked parts recommended by top FPV Drone racers. The drone has hand-soldered connections, an onboard camera as well as GoPro capabilities! ",
+        img: "assets/drone.jpg",
+    },
+    {
+        id:"6",
+        icon: "assets/water.png",
+        title: "AWH Experimental Setup",
+        desc:"The atmosphere contains a large supply of untapped freshwater.  This expermiental set-up created in the University of Waterloo's Quantum Nanotech Center uses a superhydrophobic surface to harvest liquid water from humid air.  This can help generate freshwater for people in landlocked regions. ",
+        img: "assets/AWH.jpg",
+    },
+];
